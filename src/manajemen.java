@@ -65,6 +65,6 @@ public class manajemen {
         int totalSetelahBonus = (int) (uang - totalPengeluaran + bonusTakTerduga);
         System.out.println("Total uang yang dimiliki setelah pengeluaran dan bonus: Rp" + totalSetelahBonus);
     
-        input.close(); // Close the scanner
+        input.close();
     }
 }
